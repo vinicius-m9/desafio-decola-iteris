@@ -19,7 +19,7 @@ export class SobrePageComponent implements OnInit {
     const card1 = new SobreCardModel();
     card1.titulo = 'Visão'
     card1.imagem = 'https://paginabrazil.com/wp-content/uploads/2016/11/mulheresfelizes.jpg'
-    card1.descricao = 'O Amor não machuca tem como objetivo contribuir e fortalecer mecanismos prevenir a violência doméstica e contra a mulher, para isso, contamos com o apoio da sociedade e de instituições'
+    card1.descricao = 'O Amor não machuca tem como objetivo contribuir e fortalecer mecanismos prevenir a violência doméstica e contra a mulher, para isso, contamos com o apoio da sociedade e de instituições.'
     this.cards.push(card1);
 
     const card2 = new SobreCardModel();
@@ -31,7 +31,7 @@ export class SobrePageComponent implements OnInit {
     const card3 = new SobreCardModel();
     card3.titulo = 'Valores'
     card3.imagem = 'https://www.notibras.com/site/wp-content/uploads/2017/03/dia-internacional-da-mulher-1.jpg'
-    card3.descricao = 'Ética, Justiça, Honestidade, Transparência'
+    card3.descricao = 'Ética, Justiça, Honestidade, Transparência.'
     this.cards.push(card3);
    }
 
