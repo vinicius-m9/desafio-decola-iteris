@@ -20,6 +20,8 @@ import { InstituicaoCardComponent } from './components/instituicao-card/institui
 import { DepoimentoCardComponent } from './components/depoimento-card/depoimento-card.component';
 import { LeisPageComponent } from './components/leis-page/leis-page.component';
 import { LeiCardComponent } from './components/lei-card/lei-card.component';
+import { SobreCardComponent } from './components/sobre-card/sobre-card.component';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { LeiCardComponent } from './components/lei-card/lei-card.component';
     InstituicaoCardComponent,
     DepoimentoCardComponent,
     LeisPageComponent,
-    LeiCardComponent
+    LeiCardComponent,
+    SobreCardComponent
   ],
   imports: [
     BrowserModule,
