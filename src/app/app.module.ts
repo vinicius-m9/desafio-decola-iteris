@@ -15,6 +15,9 @@ import { MatListModule } from '@angular/material/list';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { InstituicoesPageComponent } from './components/instituicoes-page/instituicoes-page.component';
 import { SobrePageComponent } from './components/sobre-page/sobre-page.component';
+import { LeisPageComponent } from './components/leis-page/leis-page.component';
+import { MatCardModule } from '@angular/material/card';
+import { LeiCardComponent } from './components/lei-card/lei-card.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,9 @@ import { SobrePageComponent } from './components/sobre-page/sobre-page.component
     MenuTemplateComponent,
     HomePageComponent,
     InstituicoesPageComponent,
-    SobrePageComponent
+    SobrePageComponent,
+    LeisPageComponent,
+    LeiCardComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +39,8 @@ import { SobrePageComponent } from './components/sobre-page/sobre-page.component
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
