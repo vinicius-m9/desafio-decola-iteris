@@ -1,1 +1,17 @@
-<p>home-page works!</p>
+<div class="info">
+  <h2>
+    Não sofra em silêncio!
+  </h2>
+  <p>
+    Existem diversas instituições engajadas no combate à violência contra a mulher.
+    Acesse o link para <a routerLink="instituicoes">saber mais</a>.
+  </p>
+</div>
+
+<app-depoimento-card *ngFor="let depoimento of depoimentos"
+  [depoimento]="depoimento">
+</app-depoimento-card>
+
+<div class="info">
+  Conheça a iniciativa <a routerLink="sobre">Amor não machuca</a>.
+</div>
