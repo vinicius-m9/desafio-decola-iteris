@@ -17,6 +17,8 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { InstituicoesPageComponent } from './components/instituicoes-page/instituicoes-page.component';
 import { SobrePageComponent } from './components/sobre-page/sobre-page.component';
 import { DepoimentoCardComponent } from './components/depoimento-card/depoimento-card.component';
+import { LeisPageComponent } from './components/leis-page/leis-page.component';
+import { LeiCardComponent } from './components/lei-card/lei-card.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { DepoimentoCardComponent } from './components/depoimento-card/depoimento
     HomePageComponent,
     InstituicoesPageComponent,
     SobrePageComponent,
-    DepoimentoCardComponent
+    DepoimentoCardComponent,
+    LeisPageComponent,
+    LeiCardComponent
   ],
   imports: [
     BrowserModule,
