@@ -21,7 +21,4 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  goToInstituicoesPage(): void {
-
-  }
 }
