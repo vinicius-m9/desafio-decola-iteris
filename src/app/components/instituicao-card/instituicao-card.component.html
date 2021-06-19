@@ -1,0 +1,11 @@
+<mat-card>
+  <h1> {{instituicoes?.nome}} </h1>
+  <div class="image"> <img [src]="instituicoes?.imagem"> </div>
+​
+  <div class="info">
+    <p> {{instituicoes?.descricao}}</p>
+  </div>
+  <div>
+  <span> Site: <a [href] = "instituicoes?.site" target="_blank" >{{instituicoes?.site}} </a></span>
+  </div>
+</mat-card>
