@@ -12,11 +12,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { MatCardModule } from '@angular/material/card';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { InstituicoesPageComponent } from './components/instituicoes-page/instituicoes-page.component';
 import { SobrePageComponent } from './components/sobre-page/sobre-page.component';
-import { MatCardModule } from '@angular/material/card';
 import { InstituicaoCardComponent } from './components/instituicao-card/instituicao-card.component';
+import { DepoimentoCardComponent } from './components/depoimento-card/depoimento-card.component';
+import { LeisPageComponent } from './components/leis-page/leis-page.component';
+import { LeiCardComponent } from './components/lei-card/lei-card.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { InstituicaoCardComponent } from './components/instituicao-card/institui
     HomePageComponent,
     InstituicoesPageComponent,
     SobrePageComponent,
-    InstituicaoCardComponent
+    InstituicaoCardComponent,
+    DepoimentoCardComponent,
+    LeisPageComponent,
+    LeiCardComponent
   ],
   imports: [
     BrowserModule,

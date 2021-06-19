@@ -1,0 +1,16 @@
+app-depoimento-card {
+  margin: 5%;
+  display: block;
+}
+
+.info {
+  margin: 5%;
+}
+
+.info h2 {
+  text-align: center;
+}
+
+.info p {
+  text-align: justify;
+}

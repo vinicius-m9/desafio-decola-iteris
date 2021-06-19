@@ -1,0 +1,21 @@
+mat-card img {
+  max-width: 60%;
+  border-radius: 3px;
+}
+
+mat-card p.depoimento {
+  text-align: justify;
+  margin: 4%
+}
+
+mat-card h3 {
+  margin: 3%
+}
+
+mat-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccccff;
+}
