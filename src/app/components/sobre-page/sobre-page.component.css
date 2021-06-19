@@ -19,59 +19,8 @@
 
 }
 
-.visao{
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: space-around;
 
-}
 
-.visao img{
-
-  margin-left: 5%;
-  border-radius: 15px;
-
-  max-width: 30vw;
-  max-height: 30vh;
-
-}
-
-.missao{
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: space-around;
-
-}
-
-.missao img{
-
-  margin-left: 5%;
-
-  border-radius: 15px;
-
-  max-width: 30vw;
-  max-height: 30vh;
-
-}
-
-.valores{
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: space-around;
-
-}
-
-.valores img{
-  margin-left: 5%;
-  border-radius: 15px;
-
-  max-width: 30vw;
-  max-height: 30vh;
-
-}
 
 
 

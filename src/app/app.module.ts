@@ -18,6 +18,7 @@ import { SobrePageComponent } from './components/sobre-page/sobre-page.component
 import { LeisPageComponent } from './components/leis-page/leis-page.component';
 import { MatCardModule } from '@angular/material/card';
 import { LeiCardComponent } from './components/lei-card/lei-card.component';
+import { SobreCardComponent } from './components/sobre-card/sobre-card.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { LeiCardComponent } from './components/lei-card/lei-card.component';
     InstituicoesPageComponent,
     SobrePageComponent,
     LeisPageComponent,
-    LeiCardComponent
+    LeiCardComponent,
+    SobreCardComponent
   ],
   imports: [
     BrowserModule,
